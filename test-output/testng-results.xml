@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63198" started-at="2016-03-20T17:35:03Z" finished-at="2016-03-20T17:36:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63198" started-at="2016-03-20T17:35:03Z" finished-at="2016-03-20T17:36:06Z">
+      <class name="HAS.Test_1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HAS.Test_1@78691363]" name="setUp" duration-ms="7726" started-at="2016-03-20T23:05:03Z" finished-at="2016-03-20T23:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToGdrive()[pri:1, instance:HAS.Test_1@78691363]" name="loginToGdrive" duration-ms="19712" started-at="2016-03-20T23:05:11Z" finished-at="2016-03-20T23:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGdrive -->
+        <test-method status="PASS" signature="uploadFile()[pri:2, instance:HAS.Test_1@78691363]" name="uploadFile" duration-ms="35693" started-at="2016-03-20T23:05:30Z" finished-at="2016-03-20T23:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+      </class> <!-- HAS.Test_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
