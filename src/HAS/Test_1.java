@@ -1,4 +1,4 @@
-package HAS;
+﻿package HAS;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+//Good Code by Himanshu Obviously
 public class Test_1 
 {
 	WebDriver driver = new FirefoxDriver();
