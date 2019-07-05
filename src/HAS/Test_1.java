@@ -51,7 +51,7 @@ public class Test_1
 				}
 			}
 	}
-	@Test(dependsOnMethods = { "loginToGdrive" })
+	@Test(dependsOnMethods = { "loginToGdrivee" })
 	 public void uploadFile() throws InterruptedException
 	 {
 		Thread.sleep(10000);
@@ -69,7 +69,7 @@ public class Test_1
    	 
 	 }
 	
-	//No Network – Turn off the network and try to upload a file – Assert if no network message is displayed.
+	//No Network â€“ Turn off the network and try to upload a file â€“ Assert if no network message is displayed.
 	@Test
 	public void noNetwork()
 	{
