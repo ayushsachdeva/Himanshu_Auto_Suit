@@ -51,7 +51,7 @@ public class Test_1
 				}
 			}
 	}
-	@Test(dependsOnMethods = { "loginToGdrivee" })
+	@Test(dependsOnMethods = { "loginToGdrive" })
 	 public void uploadFile() throws InterruptedException
 	 {
 		Thread.sleep(10000);
